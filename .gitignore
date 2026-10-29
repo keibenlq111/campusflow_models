@@ -1,0 +1,6 @@
+# Fichiers générés automatiquement : on ne les versionne pas dans Git.
+.dart_tool/
+.packages
+build/
+# pubspec.lock est ignoré pour un package (on le garde pour une application).
+pubspec.lock

@@ -1,0 +1,3 @@
+# Active le jeu de règles "recommended" du package lints :
+# dart analyze signalera le code non idiomatique (ex. variables inutilisées).
+include: package:lints/recommended.yaml

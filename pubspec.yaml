@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────
+# pubspec.yaml : la "carte d'identité" du package Dart.
+# Généré par : dart create -t package campusflow_models
+# ─────────────────────────────────────────────────────────────
+
+# Nom du package (snake_case obligatoire). C'est ce nom qu'on utilise
+# dans les imports : import 'package:campusflow_models/...';
+name: campusflow_models
+
+# Courte description affichée si le package est publié sur pub.dev.
+description: Modèles de données (Task, Course, User) de l'application CampusFlow en Dart pur.
+
+# Version du package selon la convention SemVer : MAJEUR.MINEUR.CORRECTIF
+version: 1.0.0
+
+# Empêche une publication accidentelle sur pub.dev (projet d'atelier).
+publish_to: none
+
+# Contrainte sur la version du SDK Dart : ici Dart 3.x (null-safety obligatoire).
+environment:
+  sdk: ^3.0.0
+
+# Dépendances nécessaires au code de production : aucune → "Dart pur".
+# dependencies:
+
+# Dépendances utilisées seulement pendant le développement.
+dev_dependencies:
+  # Règles d'analyse statique recommandées par l'équipe Dart (dart analyze).
+  lints: ^3.0.0
+  # Framework de tests unitaires utilisé par la commande "dart test".
+  test: ^1.24.0
